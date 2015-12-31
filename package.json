@@ -1,0 +1,28 @@
+{
+  "name": "doc-releaser",
+  "version": "0.0.1",
+  "description": "A simple utility to prepare documents for client release when using time-stamped and similar dynamic file naming conventions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Word",
+    "document",
+    "preparation",
+    "timestamp",
+    "naming",
+    "convention",
+    "file",
+    "naming"
+  ],
+  "author": "Douglas Ross <sachioross@gmail.com> (http://cmspanda.net/)",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.10.6",
+    "nconf": "^0.8.2",
+    "optimist": "^0.6.1",
+    "q": "^1.4.1",
+    "q-io": "^1.13.2"
+  }
+}
